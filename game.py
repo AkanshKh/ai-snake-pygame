@@ -11,7 +11,7 @@ BOXES = 30
 class Food : 
     def __init__(self):
         self.position = Position(0, 0)
-        self.image = pygame.image.load('food.png')   
+        self.image = pygame.image.load('./assets/food.png')   
         
     def get_rect(self):
         img_rect = self.image.get_rect()
@@ -27,7 +27,7 @@ class Snake:
             self.body.append(Position(0, 0)) #check this
             
         self.last_direction = Direction.RIGHT
-        self.image = pygame.image.load('snake.png')
+        self.image = pygame.image.load('./assets/snake.png')
         self.step = self.get_head().right - self.get_head().left
         
         

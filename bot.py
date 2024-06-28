@@ -24,7 +24,7 @@ WHITE = (255, 255, 255)
 class Food:
     def __init__(self):
         self.position = Position(0, 0)
-        self.image = pygame.image.load('food.png')   
+        self.image = pygame.image.load('./assets/food.png')   
         
     def get_rect(self):
         img_rect = self.image.get_rect()
@@ -39,7 +39,7 @@ class Snake:
         self.body = [head, Position(head.x - BOX_SIZE, head.y), Position(head.x - 2 * BOX_SIZE, head.y)]
         
         self.last_direction = Direction.RIGHT
-        self.image = pygame.image.load('snake.png')
+        self.image = pygame.image.load('./assets/snake.png')
         self.step_size = BOX_SIZE
         
     def grow(self):
