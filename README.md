@@ -70,16 +70,17 @@ python bot.py --count x --ai
 
 - User playing
 
-![userplayinggif](./assets/userPlaying.gif)
+<img src="./assets/userPlaying.gif" width="400" height="300">
+
 
 - Untrained AI
 
-![untrainedAIgif](./assets/untrainedAI.gif)
-
+<img src="./assets/untrainedAI.gif" width="300" height="300">
 
 - Trained AI
 
-![trainedAIgif](./assets/trainedAI.gif)
+<img src="./assets/trainedAI.gif" width="300" height="300">
+
 ## ⛏️ Built Using <a name = "built_using"></a>
 
 - [PyGame](https://www.pygame.org/news) - Rendering Gaming Screen
